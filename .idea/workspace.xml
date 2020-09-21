@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="9121068e-6178-405d-9204-3cd03d85780f" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Two-Sum.py" afterPath="$PROJECT_DIR$/Two-Sum.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -14,11 +13,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Two-Sum.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Two-Sum.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Two-Sum.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="121">
-              <caret line="23" column="26" lean-forward="true" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
+            <state relative-caret-position="483">
+              <caret line="23" column="27" lean-forward="false" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -27,8 +26,18 @@
       <file leaf-file-name="Container-With-Most-Water.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Container-With-Most-Water.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="5" column="10" lean-forward="true" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+            <state relative-caret-position="399">
+              <caret line="29" column="23" lean-forward="true" selection-start-line="20" selection-start-column="8" selection-end-line="29" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="First-And-Last-Position-Of-Element-In-Sorted-Array.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/First-And-Last-Position-Of-Element-In-Sorted-Array.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="241">
+              <caret line="32" column="29" lean-forward="false" selection-start-line="32" selection-start-column="29" selection-end-line="32" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -49,8 +58,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Container-With-Most-Water.py" />
         <option value="$PROJECT_DIR$/Two-Sum.py" />
+        <option value="$PROJECT_DIR$/Container-With-Most-Water.py" />
+        <option value="$PROJECT_DIR$/First-And-Last-Position-Of-Element-In-Sorted-Array.py" />
       </list>
     </option>
   </component>
@@ -105,7 +115,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Two-Sum">
+  <component name="RunManager" selected="Python.First-And-Last-Position-Of-Element-In-Sorted-Array">
     <configuration name="Container-With-Most-Water" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -119,6 +129,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="Leetcode Practice" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Container-With-Most-Water.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="First-And-Last-Position-Of-Element-In-Sorted-Array" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Leetcode Practice" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/First-And-Last-Position-Of-Element-In-Sorted-Array.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -140,14 +167,16 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <list size="2">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Python.Two-Sum" />
       <item index="1" class="java.lang.String" itemvalue="Python.Container-With-Most-Water" />
+      <item index="2" class="java.lang.String" itemvalue="Python.First-And-Last-Position-Of-Element-In-Sorted-Array" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Python.Two-Sum" />
-        <item index="1" class="java.lang.String" itemvalue="Python.Container-With-Most-Water" />
+      <list size="3">
+        <item index="0" class="java.lang.String" itemvalue="Python.First-And-Last-Position-Of-Element-In-Sorted-Array" />
+        <item index="1" class="java.lang.String" itemvalue="Python.Two-Sum" />
+        <item index="2" class="java.lang.String" itemvalue="Python.Container-With-Most-Water" />
       </list>
     </recent_temporary>
   </component>
@@ -196,18 +225,26 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Container-With-Most-Water.py">
+    <entry file="file://$PROJECT_DIR$/Two-Sum.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="10" lean-forward="true" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+        <state relative-caret-position="483">
+          <caret line="23" column="27" lean-forward="false" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Two-Sum.py">
+    <entry file="file://$PROJECT_DIR$/Container-With-Most-Water.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="121">
-          <caret line="23" column="26" lean-forward="true" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
+        <state relative-caret-position="399">
+          <caret line="29" column="23" lean-forward="true" selection-start-line="20" selection-start-column="8" selection-end-line="29" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/First-And-Last-Position-Of-Element-In-Sorted-Array.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="32" column="29" lean-forward="false" selection-start-line="32" selection-start-column="29" selection-end-line="32" selection-end-column="29" />
           <folding />
         </state>
       </provider>
