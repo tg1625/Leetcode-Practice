@@ -21,7 +21,7 @@ class Solution:
 
         # Hash Table --> Time O(n), Space O(n)
         # dict = {}
-        # for num in range(len(nums)):
+        # for num in range (len(nums)):
         #     dict[nums[num]] = num
         # for num in dict:
         #     if target - num in dict:
@@ -31,10 +31,10 @@ class Solution:
         # Hash Table Pt 2 --> Time O(n), Space O(n)
         # better than first b/c its n and not 2n
         dict = {}
-        for num in range(len(nums)):
-            dict[nums[num]] = num
-            if target - num in dict:
-                return [dict[num], dict[target - num]]
+        for i in range(len(nums)):
+            if target - nums[i] in dict:
+                return [i, dict[target - nums[i]]]
+            dict[nums[i]] = i
         return []
 
 def main():
